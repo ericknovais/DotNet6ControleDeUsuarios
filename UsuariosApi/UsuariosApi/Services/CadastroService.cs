@@ -22,7 +22,7 @@ namespace UsuariosApi.Services
             IdentityResult result = await _userManager.CreateAsync(usuario, dto.Password);
 
             if (!result.Succeeded)
-                throw new ApplicationException("Faalha ao cadastrar usuário");
+                throw new ApplicationException("Falha ao cadastrar usuário");
         }
     }
 }
