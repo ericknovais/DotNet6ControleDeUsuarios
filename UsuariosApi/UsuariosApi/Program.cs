@@ -11,7 +11,9 @@ using UsuariosApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<UsuarioDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("UsuarioConnection")));
+var connString = builder.Configuration["ConnectionStrings:UsuarioConnection"];
+builder.Services.AddDbContext<UsuarioDbContext>(options => options.UseSqlServer(connString));
+
 
 builder.Services.AddIdentity<Usuario, IdentityRole>().
     AddEntityFrameworkStores<UsuarioDbContext>().
