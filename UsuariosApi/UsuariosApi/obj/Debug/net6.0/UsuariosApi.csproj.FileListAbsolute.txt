@@ -73,3 +73,4 @@ C:\Projetos\DotNet6ControleDeUsuarios\UsuariosApi\UsuariosApi\obj\Debug\net6.0\U
 C:\Projetos\DotNet6ControleDeUsuarios\UsuariosApi\UsuariosApi\obj\Debug\net6.0\UsuariosApi.genruntimeconfig.cache
 C:\Projetos\DotNet6ControleDeUsuarios\UsuariosApi\UsuariosApi\obj\Debug\net6.0\ref\UsuariosApi.dll
 C:\Projetos\DotNet6ControleDeUsuarios\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projetos\DotNet6ControleDeUsuarios\UsuariosApi\UsuariosApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
