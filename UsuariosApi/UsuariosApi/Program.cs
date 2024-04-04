@@ -12,7 +12,8 @@ builder.Services.AddIdentity<Usuario, IdentityRole>().
     AddEntityFrameworkStores<UsuarioDbContext>().
     AddDefaultTokenProviders();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-builder.Services.AddScoped<CadastroService>();
+builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<TokenService>();
 
 // Add services to the container.
 
